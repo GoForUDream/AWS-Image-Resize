@@ -33,3 +33,11 @@ frontend/.vite/
 # Uploads (if any)
 uploads/
 temp/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/*.zip
+terraform/.terraform.lock.hcl
